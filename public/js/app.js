@@ -5255,41 +5255,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -5325,10 +5290,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5352,9 +5317,120 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
+  name: "SevenWondersDuel",
+  data: function data() {
+    return {
+      player1: "Mike",
+      player2: "Morgan",
+      blueCard1: 0,
+      blueCard2: 0,
+      greenCard1: 0,
+      greenCard2: 0,
+      yellowCard1: 0,
+      yellowCard2: 0,
+      purpleCard1: 0,
+      purpleCard2: 0,
+      wonders1: 0,
+      wonders2: 0,
+      science1: 0,
+      science2: 0,
+      gold1: 0,
+      gold2: 0,
+      military1: 0,
+      military2: 0,
+      playerSum1: 0,
+      playerSum2: 0
+    };
+  },
+  methods: {
+    onUpdate: function onUpdate(e) {
+      this.playerSum1 = Number(this.blueCard1) + Number(this.greenCard1) + Number(this.yellowCard1) + Number(this.purpleCard1) + Number(this.wonders1) + Number(this.science1) + Math.floor(Number(this.gold1) / 3) + Number(this.military1);
+      this.playerSum2 = Number(this.blueCard2) + Number(this.greenCard2) + Number(this.yellowCard2) + Number(this.purpleCard2) + Number(this.wonders2) + Number(this.science2) + Math.floor(Number(this.gold2) / 3) + Number(this.military2);
+    }
   }
 });
 
@@ -27872,45 +27948,6 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./resources/js/components/DemoComponent.vue":
-/*!***************************************************!*\
-  !*** ./resources/js/components/DemoComponent.vue ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DemoComponent.vue?vue&type=template&id=387d8cff& */ "./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff&");
-/* harmony import */ var _DemoComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DemoComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/DemoComponent.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DemoComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__.render,
-  _DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/DemoComponent.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
 /***/ "./resources/js/components/ExampleComponent.vue":
 /*!******************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue ***!
@@ -27950,10 +27987,10 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/calculators/MyComp.vue":
-/*!********************************************************!*\
-  !*** ./resources/js/components/calculators/MyComp.vue ***!
-  \********************************************************/
+/***/ "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -27961,8 +27998,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MyComp.vue?vue&type=template&id=4cfa7bb8& */ "./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8&");
-/* harmony import */ var _MyComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyComp.vue?vue&type=script&lang=js& */ "./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js&");
+/* harmony import */ var _SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SevenWondersDuel.vue?vue&type=template&id=4a4d2758& */ "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758&");
+/* harmony import */ var _SevenWondersDuel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SevenWondersDuel.vue?vue&type=script&lang=js& */ "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -27972,9 +28009,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _MyComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__.render,
-  _MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _SevenWondersDuel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -27984,24 +28021,8 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/calculators/MyComp.vue"
+component.options.__file = "resources/js/components/SevenWondersDuel/SevenWondersDuel.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/DemoComponent.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ./resources/js/components/DemoComponent.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DemoComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DemoComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DemoComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -28021,10 +28042,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************/
+/***/ "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -28032,25 +28053,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MyComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MyComp.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MyComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff&":
-/*!**********************************************************************************!*\
-  !*** ./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff& ***!
-  \**********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DemoComponent_vue_vue_type_template_id_387d8cff___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DemoComponent.vue?vue&type=template&id=387d8cff& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff&");
-
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SevenWondersDuel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SevenWondersDuel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SevenWondersDuel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -28071,67 +28075,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8&":
-/*!***************************************************************************************!*\
-  !*** ./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8& ***!
-  \***************************************************************************************/
+/***/ "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758& ***!
+  \******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MyComp_vue_vue_type_template_id_4cfa7bb8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MyComp.vue?vue&type=template&id=4cfa7bb8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8&");
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff&":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DemoComponent.vue?vue&type=template&id=387d8cff& ***!
-  \*************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function () {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Demo Component"),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              ),
-            ]),
-          ]),
-        ]),
-      ]),
-    ])
-  },
-]
-render._withStripped = true
-
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SevenWondersDuel_vue_vue_type_template_id_4a4d2758___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SevenWondersDuel.vue?vue&type=template&id=4a4d2758& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758&");
 
 
 /***/ }),
@@ -28184,10 +28140,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/calculators/MyComp.vue?vue&type=template&id=4cfa7bb8& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue?vue&type=template&id=4a4d2758& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -28200,27 +28156,744 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    {
+      staticClass:
+        "my-4 lg:mx-60 md:mx-40 sm:mx-auto grid grid-rows-11 grid-cols-7  justify-content-center text-center",
+    },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-1 bg-gray-300" }),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-span-3 bg-gray-300",
+          attrs: { contenteditable: "" },
+        },
+        [
+          _c(
+            "h1",
+            { staticClass: "font-medium leading-tight text-2xl mt-0 mb-2" },
+            [_vm._v("\n        " + _vm._s(_vm.player1))]
+          ),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-span-3 bg-gray-300",
+          attrs: { contenteditable: "" },
+        },
+        [
+          _c(
+            "h1",
+            { staticClass: "font-medium leading-tight text-2xl mt-0 mb-2" },
+            [_vm._v("\n        " + _vm._s(_vm.player2))]
+          ),
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-sky-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.blueCard1,
+              expression: "blueCard1",
+            },
+          ],
+          staticClass: "bg-sky-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.blueCard1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.blueCard1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-sky-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.blueCard2,
+              expression: "blueCard2",
+            },
+          ],
+          staticClass: "bg-sky-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.blueCard2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.blueCard2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-emerald-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.greenCard1,
+              expression: "greenCard1",
+            },
+          ],
+          staticClass: "bg-emerald-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.greenCard1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.greenCard1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-emerald-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.greenCard2,
+              expression: "greenCard2",
+            },
+          ],
+          staticClass: "bg-emerald-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.greenCard2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.greenCard2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(3),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-amber-200" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.yellowCard1,
+              expression: "yellowCard1",
+            },
+          ],
+          staticClass: "bg-amber-200 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.yellowCard1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.yellowCard1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-amber-200" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.yellowCard2,
+              expression: "yellowCard2",
+            },
+          ],
+          staticClass: "bg-amber-200 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.yellowCard2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.yellowCard2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(4),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-purple-400" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.purpleCard1,
+              expression: "purpleCard1",
+            },
+          ],
+          staticClass: "bg-purple-400 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.purpleCard1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.purpleCard1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-purple-400" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.purpleCard2,
+              expression: "purpleCard2",
+            },
+          ],
+          staticClass: "bg-purple-400 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.purpleCard2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.purpleCard2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-sky-200" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.wonders1,
+              expression: "wonders1",
+            },
+          ],
+          staticClass: "bg-sky-200 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.wonders1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.wonders1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-sky-200" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.wonders2,
+              expression: "wonders2",
+            },
+          ],
+          staticClass: "bg-sky-200 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.wonders2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.wonders2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(6),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-emerald-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.science1,
+              expression: "science1",
+            },
+          ],
+          staticClass: "bg-emerald-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.science1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.science1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-emerald-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.science2,
+              expression: "science2",
+            },
+          ],
+          staticClass: "bg-emerald-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.science2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.science2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(7),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-amber-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.gold1,
+              expression: "gold1",
+            },
+          ],
+          staticClass: "bg-amber-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.gold1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.gold1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-amber-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.gold2,
+              expression: "gold2",
+            },
+          ],
+          staticClass: "bg-amber-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.gold2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.gold2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(8),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-red-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.military1,
+              expression: "military1",
+            },
+          ],
+          staticClass: "bg-red-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.military1 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.military1 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-red-300" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.military2,
+              expression: "military2",
+            },
+          ],
+          staticClass: "bg-red-300 text-center",
+          attrs: { type: "number", min: "0", placeholder: "" },
+          domProps: { value: _vm.military2 },
+          on: {
+            input: [
+              function ($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.military2 = $event.target.value
+              },
+              _vm.onUpdate,
+            ],
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(9),
+      _vm._v(" "),
+      _vm._m(10),
+      _vm._v(" "),
+      _vm._m(11),
+      _vm._v(" "),
+      _vm._m(12),
+      _vm._v(" "),
+      _vm._m(13),
+      _vm._v(" "),
+      _vm._m(14),
+      _vm._v(" "),
+      _vm._m(15),
+      _vm._v(" "),
+      _c(
+        "div",
+        _vm._b(
+          { staticClass: "col-span-3 bg-sky-50" },
+          "div",
+          _vm.playerSum1,
+          false
+        ),
+        [_vm._v(_vm._s(_vm.playerSum1))]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-span-3 bg-sky-50" }, [
+        _vm._v(_vm._s(_vm.playerSum2)),
+      ]),
+    ]
+  )
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("My Component")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              ),
-            ]),
-          ]),
-        ]),
-      ]),
+    return _c(
+      "div",
+      {
+        staticClass: "col-span-7 bg-green-600 dark:text-white",
+        attrs: { contenteditable: "" },
+      },
+      [
+        _c(
+          "h1",
+          {
+            staticClass:
+              "font-medium leading-tight text-5xl mt-0 mb-2 text-white",
+          },
+          [_vm._v("7 Wonders Duel Score Sheet")]
+        ),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-sky-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-emerald-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-amber-200" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-purple-400" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-sky-200" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-emerald-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-amber-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-red-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-red-400" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-3 bg-red-400" }, [
+      _c("input", { attrs: { type: "checkbox" } }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-3 bg-red-400" }, [
+      _c("input", { attrs: { type: "checkbox" } }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-sky-300" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-3 bg-sky-300" }, [
+      _c("input", { attrs: { type: "checkbox" } }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-3 bg-sky-300" }, [
+      _c("input", { attrs: { type: "checkbox" } }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-span-1 bg-sky-50" }, [
+      _c("img", {
+        staticClass: "mx-auto",
+        attrs: {
+          src: "/img/placeholders/candle.svg",
+          height: "40",
+          width: "40",
+        },
+      }),
     ])
   },
 ]
@@ -40394,9 +41067,8 @@ Vue.compile = compileToFunctions;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
-	"./components/DemoComponent.vue": "./resources/js/components/DemoComponent.vue",
 	"./components/ExampleComponent.vue": "./resources/js/components/ExampleComponent.vue",
-	"./components/calculators/MyComp.vue": "./resources/js/components/calculators/MyComp.vue"
+	"./components/SevenWondersDuel/SevenWondersDuel.vue": "./resources/js/components/SevenWondersDuel/SevenWondersDuel.vue"
 };
 
 
