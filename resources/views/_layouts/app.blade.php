@@ -29,7 +29,7 @@
 
     </head>
     <body>
-    <div id="app">
+    <div id='hyper-tally-app'>
 
         @include('_partials._primary_nav')
 
@@ -43,12 +43,14 @@
     <div class="flex flex-col justify-between">
 
         <footer class="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; {{date('Y')}} Mike Bros.</span>
+            <span
+                class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; {{date('Y')}} Mike Bros.</span>
         </footer>
 
 
     </div>
     @yield('scripts-bottom')
+    @stack('scripts-bottom')
     </body>
 </div>
 </html>
