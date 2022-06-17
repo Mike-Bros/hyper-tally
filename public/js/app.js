@@ -5401,6 +5401,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "SevenWondersDuel",
   data: function data() {
@@ -5430,7 +5454,9 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     onUpdate: function onUpdate(e) {
       this.playerSum1 = Number(this.blueCard1) + Number(this.greenCard1) + Number(this.yellowCard1) + Number(this.purpleCard1) + Number(this.wonders1) + Number(this.science1) + Math.floor(Number(this.gold1) / 3) + Number(this.military1);
-      this.playerSum2 = Number(this.blueCard2) + Number(this.greenCard2) + Number(this.yellowCard2) + Number(this.purpleCard2) + Number(this.wonders2) + Number(this.science2) + Math.floor(Number(this.gold2) / 3) + Number(this.military2);
+      this.playerSum2 = Number(this.blueCard2) + Number(this.greenCard2) + Number(this.yellowCard2) + Number(this.purpleCard2) + Number(this.wonders2) + Number(this.science2) + Math.floor(Number(this.gold2) / 3) + Number(this.military2); // if (playerSum1 > playerSum2){
+      //     document.getElementById('player1name').classList.add('')
+      // }
     }
   }
 });
@@ -28170,7 +28196,7 @@ var render = function () {
         "div",
         {
           staticClass: "col-span-3 bg-gray-300",
-          attrs: { contenteditable: "" },
+          attrs: { id: "player1name", contenteditable: "" },
         },
         [
           _c(
@@ -28185,7 +28211,7 @@ var render = function () {
         "div",
         {
           staticClass: "col-span-3 bg-gray-300",
-          attrs: { contenteditable: "" },
+          attrs: { id: "player2name", contenteditable: "" },
         },
         [
           _c(
@@ -28208,7 +28234,7 @@ var render = function () {
               expression: "blueCard1",
             },
           ],
-          staticClass: "bg-sky-300 text-center",
+          staticClass: "bg-sky-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.blueCard1 },
           on: {
@@ -28235,7 +28261,7 @@ var render = function () {
               expression: "blueCard2",
             },
           ],
-          staticClass: "bg-sky-300 text-center",
+          staticClass: "bg-sky-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.blueCard2 },
           on: {
@@ -28264,7 +28290,8 @@ var render = function () {
               expression: "greenCard1",
             },
           ],
-          staticClass: "bg-emerald-300 text-center",
+          staticClass:
+            "bg-emerald-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.greenCard1 },
           on: {
@@ -28291,7 +28318,8 @@ var render = function () {
               expression: "greenCard2",
             },
           ],
-          staticClass: "bg-emerald-300 text-center",
+          staticClass:
+            "bg-emerald-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.greenCard2 },
           on: {
@@ -28320,7 +28348,7 @@ var render = function () {
               expression: "yellowCard1",
             },
           ],
-          staticClass: "bg-amber-200 text-center",
+          staticClass: "bg-amber-200 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.yellowCard1 },
           on: {
@@ -28347,7 +28375,7 @@ var render = function () {
               expression: "yellowCard2",
             },
           ],
-          staticClass: "bg-amber-200 text-center",
+          staticClass: "bg-amber-200 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.yellowCard2 },
           on: {
@@ -28376,7 +28404,8 @@ var render = function () {
               expression: "purpleCard1",
             },
           ],
-          staticClass: "bg-purple-400 text-center",
+          staticClass:
+            "bg-purple-400 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.purpleCard1 },
           on: {
@@ -28403,7 +28432,8 @@ var render = function () {
               expression: "purpleCard2",
             },
           ],
-          staticClass: "bg-purple-400 text-center",
+          staticClass:
+            "bg-purple-400 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.purpleCard2 },
           on: {
@@ -28432,7 +28462,7 @@ var render = function () {
               expression: "wonders1",
             },
           ],
-          staticClass: "bg-sky-200 text-center",
+          staticClass: "bg-sky-200 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.wonders1 },
           on: {
@@ -28459,7 +28489,7 @@ var render = function () {
               expression: "wonders2",
             },
           ],
-          staticClass: "bg-sky-200 text-center",
+          staticClass: "bg-sky-200 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.wonders2 },
           on: {
@@ -28488,7 +28518,8 @@ var render = function () {
               expression: "science1",
             },
           ],
-          staticClass: "bg-emerald-300 text-center",
+          staticClass:
+            "bg-emerald-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.science1 },
           on: {
@@ -28515,7 +28546,8 @@ var render = function () {
               expression: "science2",
             },
           ],
-          staticClass: "bg-emerald-300 text-center",
+          staticClass:
+            "bg-emerald-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.science2 },
           on: {
@@ -28544,7 +28576,7 @@ var render = function () {
               expression: "gold1",
             },
           ],
-          staticClass: "bg-amber-300 text-center",
+          staticClass: "bg-amber-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.gold1 },
           on: {
@@ -28571,7 +28603,7 @@ var render = function () {
               expression: "gold2",
             },
           ],
-          staticClass: "bg-amber-300 text-center",
+          staticClass: "bg-amber-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.gold2 },
           on: {
@@ -28600,7 +28632,7 @@ var render = function () {
               expression: "military1",
             },
           ],
-          staticClass: "bg-red-300 text-center",
+          staticClass: "bg-red-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.military1 },
           on: {
@@ -28627,7 +28659,7 @@ var render = function () {
               expression: "military2",
             },
           ],
-          staticClass: "bg-red-300 text-center",
+          staticClass: "bg-red-300 text-center text-3xl text-gray-800 h-full",
           attrs: { type: "number", min: "0", placeholder: "" },
           domProps: { value: _vm.military2 },
           on: {
@@ -28661,7 +28693,7 @@ var render = function () {
       _c(
         "div",
         _vm._b(
-          { staticClass: "col-span-3 bg-gray-800 text-white" },
+          { staticClass: "col-span-3 bg-gray-800 text-white text-4xl" },
           "div",
           _vm.playerSum1,
           false
@@ -28669,8 +28701,8 @@ var render = function () {
         [_vm._v(_vm._s(_vm.playerSum1))]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "col-span-3 bg-gray-800 text-white" }, [
-        _vm._v(_vm._s(_vm.playerSum2)),
+      _c("div", { staticClass: "col-span-3 bg-gray-800 text-white text-4xl" }, [
+        _c("p", { staticClass: "h-full" }, [_vm._v(_vm._s(_vm.playerSum2))]),
       ]),
     ]
   )
