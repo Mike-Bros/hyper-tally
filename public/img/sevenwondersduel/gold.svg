@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+     viewBox="0 0 40 40" width="40pt" height="40pt">
+    <defs>
+        <clipPath id="_clipPath_ToZBXSjAtL9Nz8Wz8eHdsscKcs3CdWd3">
+            <rect width="40" height="40"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_ToZBXSjAtL9Nz8Wz8eHdsscKcs3CdWd3)">
+        <linearGradient id="_lgradient_18" x1="0.9076503759398493" y1="-0.057171052631578484" x2="-0.02217418546365879"
+                        y2="1.346337719298245" gradientTransform="matrix(30,0,0,30,5,5)" gradientUnits="userSpaceOnUse">
+            <stop offset="3.3333333333333335%" stop-opacity="1" style="stop-color:rgb(253,230,138)"/>
+            <stop offset="95.83333333333334%" stop-opacity="1" style="stop-color:rgb(201,168,61)"/>
+        </linearGradient>
+        <mask id="_mask_AU7gPgbPQZdfpLAe9bUw366hq9r1jOiO">
+            <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                    r="15.000000000000007" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                r="15.000000000000007" fill="url(#_lgradient_18)"/>
+        <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                r="15.000000000000007" fill="url(#_lgradient_18)" mask="url(#_mask_AU7gPgbPQZdfpLAe9bUw366hq9r1jOiO)"
+                stroke-width="2" stroke="rgb(201,168,61)" stroke-linejoin="miter" stroke-linecap="square"
+                stroke-miterlimit="3"/>
+        <g clip-path="url(#_clipPath_C1lrSa2AzCQxOqqBMEE2FJx8DmadcuLM)">
+            <text transform="matrix(1,0,0,1,13.3,26.55)"
+                  style="font-family:'Comic Code Ligatures';font-weight:400;font-size:20px;font-style:italic;fill:#393939;stroke:none;">
+                $
+            </text>
+        </g>
+        <defs>
+            <clipPath id="_clipPath_C1lrSa2AzCQxOqqBMEE2FJx8DmadcuLM">
+                <rect x="0" y="0" width="15" height="23" transform="matrix(1,0,0,1,13,7)"/>
+            </clipPath>
+        </defs>
+    </g>
+</svg>

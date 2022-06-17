@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+     viewBox="0 0 40 40" width="40pt" height="40pt">
+    <defs>
+        <clipPath id="_clipPath_YMeFhI317t4BJnqMisa8fW56ew64Ymbb">
+            <rect width="40" height="40"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_YMeFhI317t4BJnqMisa8fW56ew64Ymbb)">
+        <linearGradient id="_lgradient_2" x1="0.9076503759398493" y1="-0.057171052631578484" x2="-0.02217418546365879"
+                        y2="1.346337719298245" gradientTransform="matrix(30,0,0,30,5,5)" gradientUnits="userSpaceOnUse">
+            <stop offset="2.5%" stop-opacity="1" style="stop-color:rgb(110,231,183)"/>
+            <stop offset="97.5%" stop-opacity="1" style="stop-color:rgb(22,163,74)"/>
+        </linearGradient>
+        <mask id="_mask_4RuHb4L8OcXxFObVCOoieGovzqYVE16H">
+            <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                    r="15.000000000000007" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                r="15.000000000000007" fill="url(#_lgradient_2)"/>
+        <circle vector-effect="non-scaling-stroke" cx="20.000000000000007" cy="19.999999999999993"
+                r="15.000000000000007" fill="url(#_lgradient_2)" mask="url(#_mask_4RuHb4L8OcXxFObVCOoieGovzqYVE16H)"
+                stroke-width="2" stroke="rgb(22,163,74)" stroke-linejoin="miter" stroke-linecap="square"
+                stroke-miterlimit="3"/>
+        <mask id="_mask_7gV6faUaSDc5gKVv7OExmmpEC2FJPPxb">
+            <path
+                d=" M 22.133 13.755 L 22.133 17.093 L 24.494 21.722 L 27.701 28.012 C 28.461 29.502 27.72 30.739 26.048 30.771 L 20.164 30.885 L 14.28 30.999 C 12.607 31.032 11.829 29.83 12.544 28.317 L 15.579 21.895 L 17.62 17.575 L 17.62 13.755 C 17.348 13.699 17.142 13.458 17.142 13.17 L 17.142 11.597 C 17.142 11.267 17.41 11 17.739 11 L 22.014 11 C 22.343 11 22.611 11.267 22.611 11.597 L 22.611 13.17 C 22.611 13.458 22.405 13.699 22.133 13.755 Z "
+                fill-rule="evenodd" fill="white" stroke="none"/>
+        </mask>
+        <path
+            d=" M 22.133 13.755 L 22.133 17.093 L 24.494 21.722 L 27.701 28.012 C 28.461 29.502 27.72 30.739 26.048 30.771 L 20.164 30.885 L 14.28 30.999 C 12.607 31.032 11.829 29.83 12.544 28.317 L 15.579 21.895 L 17.62 17.575 L 17.62 13.755 C 17.348 13.699 17.142 13.458 17.142 13.17 L 17.142 11.597 C 17.142 11.267 17.41 11 17.739 11 L 22.014 11 C 22.343 11 22.611 11.267 22.611 11.597 L 22.611 13.17 C 22.611 13.458 22.405 13.699 22.133 13.755 Z "
+            fill-rule="evenodd" fill="none"/>
+        <path
+            d=" M 22.133 13.755 L 22.133 17.093 L 24.494 21.722 L 27.701 28.012 C 28.461 29.502 27.72 30.739 26.048 30.771 L 20.164 30.885 L 14.28 30.999 C 12.607 31.032 11.829 29.83 12.544 28.317 L 15.579 21.895 L 17.62 17.575 L 17.62 13.755 C 17.348 13.699 17.142 13.458 17.142 13.17 L 17.142 11.597 C 17.142 11.267 17.41 11 17.739 11 L 22.014 11 C 22.343 11 22.611 11.267 22.611 11.597 L 22.611 13.17 C 22.611 13.458 22.405 13.699 22.133 13.755 Z "
+            fill-rule="evenodd" fill="none" mask="url(#_mask_7gV6faUaSDc5gKVv7OExmmpEC2FJPPxb)"
+            vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(57,57,57)" stroke-linejoin="miter"
+            stroke-linecap="square" stroke-miterlimit="3"/>
+        <path
+            d=" M 24.58 24.962 L 26.593 28.708 C 26.865 29.214 26.619 29.635 26.045 29.648 L 20.096 29.774 L 14.148 29.901 C 13.574 29.914 13.31 29.504 13.561 28.986 L 15.458 25.062 C 15.751 25.17 16.02 25.229 16.338 25.255 C 16.976 25.308 17.47 24.821 18.107 24.921 C 18.356 24.961 18.551 25.058 18.793 25.126 C 18.975 25.178 19.124 25.251 19.314 25.267 C 19.601 25.292 19.836 25.192 20.111 25.12 C 20.433 25.036 20.672 24.858 21.002 24.804 C 21.362 24.745 21.672 24.804 22.033 24.839 C 22.656 24.899 23.144 25.308 23.773 25.197 C 24.06 25.146 24.389 25.167 24.58 24.962 Z "
+            fill-rule="evenodd" fill="rgb(57,57,57)"/>
+        <mask id="_mask_gcTNazR6OR4H9EIlEfj5xRKdfYAdPRYB">
+            <circle vector-effect="non-scaling-stroke" cx="18.375502232142857" cy="23.042131696428566" r="0.720703125"
+                    fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="18.375502232142857" cy="23.042131696428566" r="0.720703125"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="18.375502232142857" cy="23.042131696428566" r="0.720703125"
+                fill="none" mask="url(#_mask_gcTNazR6OR4H9EIlEfj5xRKdfYAdPRYB)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_wbUO84XIy5HOVBh6aKK7AaJzBrEM5cBk">
+            <circle vector-effect="non-scaling-stroke" cx="21.70630580357142" cy="21.169810267857137"
+                    r="0.7233816964285751" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="21.70630580357142" cy="21.169810267857137" r="0.7233816964285751"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="21.70630580357142" cy="21.169810267857137" r="0.7233816964285751"
+                fill="none" mask="url(#_mask_wbUO84XIy5HOVBh6aKK7AaJzBrEM5cBk)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_CwvFvSoRkxvCJjfclsLZD1rI4jz4GCPc">
+            <circle vector-effect="non-scaling-stroke" cx="18.143805803571418" cy="9.497935267857136"
+                    r="0.7233816964285751" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="18.143805803571418" cy="9.497935267857136" r="0.7233816964285751"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="18.143805803571418" cy="9.497935267857136" r="0.7233816964285751"
+                fill="none" mask="url(#_mask_CwvFvSoRkxvCJjfclsLZD1rI4jz4GCPc)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_vc3NIMj9OPRIGVErrG2b1Lig8kEPoqLf">
+            <circle vector-effect="non-scaling-stroke" cx="19.073995535714285" cy="20.178124999999998"
+                    r="0.6457589285714356" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.073995535714285" cy="20.178124999999998"
+                r="0.6457589285714356" fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.073995535714285" cy="20.178124999999998"
+                r="0.6457589285714356" fill="none" mask="url(#_mask_vc3NIMj9OPRIGVErrG2b1Lig8kEPoqLf)"
+                stroke-width="0.4" stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square"
+                stroke-miterlimit="3"/>
+        <mask id="_mask_lqlMeoYkbJ94C7bHZ4O9RXHHybTya7Zl">
+            <circle vector-effect="non-scaling-stroke" cx="20.308816964285715" cy="8.443303571428565"
+                    r="0.5593750000000064" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="20.308816964285715" cy="8.443303571428565" r="0.5593750000000064"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="20.308816964285715" cy="8.443303571428565" r="0.5593750000000064"
+                fill="none" mask="url(#_mask_lqlMeoYkbJ94C7bHZ4O9RXHHybTya7Zl)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_Q6h8PuJHDJFcBY9cIiEyNWP0p81KfHHr">
+            <circle vector-effect="non-scaling-stroke" cx="18.53822544642857" cy="7.493024553571421"
+                    r="0.4997209821428612" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="18.53822544642857" cy="7.493024553571421" r="0.4997209821428612"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="18.53822544642857" cy="7.493024553571421" r="0.4997209821428612"
+                fill="none" mask="url(#_mask_Q6h8PuJHDJFcBY9cIiEyNWP0p81KfHHr)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_J6TUxa3GaoHwvu4svmYOFntq2KXai5Ds">
+            <circle vector-effect="non-scaling-stroke" cx="20.30786830357143" cy="18.10731026785713"
+                    r="0.7233816964285751" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="20.30786830357143" cy="18.10731026785713" r="0.7233816964285751"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="20.30786830357143" cy="18.10731026785713" r="0.7233816964285751"
+                fill="none" mask="url(#_mask_J6TUxa3GaoHwvu4svmYOFntq2KXai5Ds)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_a30OY0fQUUlsEUQiCtC6h88BwyCyXRr7">
+            <circle vector-effect="non-scaling-stroke" cx="19.366964285714282" cy="24.33828124999999"
+                    r="0.4231026785714356" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.366964285714282" cy="24.33828124999999" r="0.4231026785714356"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.366964285714282" cy="24.33828124999999" r="0.4231026785714356"
+                fill="none" mask="url(#_mask_a30OY0fQUUlsEUQiCtC6h88BwyCyXRr7)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_nWIBpviaj481ZdiEL91z4ZvvCREhCCuR">
+            <circle vector-effect="non-scaling-stroke" cx="19.97633928571428" cy="21.924218749999984"
+                    r="0.4231026785714356" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.97633928571428" cy="21.924218749999984" r="0.4231026785714356"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.97633928571428" cy="21.924218749999984" r="0.4231026785714356"
+                fill="none" mask="url(#_mask_nWIBpviaj481ZdiEL91z4ZvvCREhCCuR)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_5le2b2EIyNg02MhT2WXqq2BZHJRKCtNy">
+            <circle vector-effect="non-scaling-stroke" cx="21.171651785714275" cy="10.275781249999978"
+                    r="0.4231026785714356" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="21.171651785714275" cy="10.275781249999978"
+                r="0.4231026785714356" fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="21.171651785714275" cy="10.275781249999978"
+                r="0.4231026785714356" fill="none" mask="url(#_mask_5le2b2EIyNg02MhT2WXqq2BZHJRKCtNy)"
+                stroke-width="0.4" stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square"
+                stroke-miterlimit="3"/>
+        <mask id="_mask_k8wdmtNT2VLONvrksZwtqA5KJMW6DJGn">
+            <circle vector-effect="non-scaling-stroke" cx="19.975055803571404" cy="6.855189732142847"
+                    r="0.377511160714306" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.975055803571404" cy="6.855189732142847" r="0.377511160714306"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.975055803571404" cy="6.855189732142847" r="0.377511160714306"
+                fill="none" mask="url(#_mask_k8wdmtNT2VLONvrksZwtqA5KJMW6DJGn)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_TcUouOSzAIhmDvIL1vwoAASc2Ks1MjRE">
+            <circle vector-effect="non-scaling-stroke" cx="23.11696428571429" cy="23.916406249999984"
+                    r="0.4231026785714356" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="23.11696428571429" cy="23.916406249999984" r="0.4231026785714356"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="23.11696428571429" cy="23.916406249999984" r="0.4231026785714356"
+                fill="none" mask="url(#_mask_TcUouOSzAIhmDvIL1vwoAASc2Ks1MjRE)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_eZfy2JIklKMZarZbvx9YGkhy6yjg34g8">
+            <circle vector-effect="non-scaling-stroke" cx="16.770284598214282" cy="24.24941406249999"
+                    r="0.381110491071432" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="16.770284598214282" cy="24.24941406249999" r="0.381110491071432"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="16.770284598214282" cy="24.24941406249999" r="0.381110491071432"
+                fill="none" mask="url(#_mask_eZfy2JIklKMZarZbvx9YGkhy6yjg34g8)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_wf0lrigjvyHwYZVYoaMs42BWkJGOEUNd">
+            <circle vector-effect="non-scaling-stroke" cx="21.410909598214282" cy="23.171289062499987"
+                    r="0.381110491071432" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="21.410909598214282" cy="23.171289062499987" r="0.381110491071432"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="21.410909598214282" cy="23.171289062499987" r="0.381110491071432"
+                fill="none" mask="url(#_mask_wf0lrigjvyHwYZVYoaMs42BWkJGOEUNd)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_JDmyfWEPgwuSLN0oNVMASnxM2j00Ki38">
+            <circle vector-effect="non-scaling-stroke" cx="19.907003348214282" cy="16.07363281249998"
+                    r="0.381110491071432" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.907003348214282" cy="16.07363281249998" r="0.381110491071432"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.907003348214282" cy="16.07363281249998" r="0.381110491071432"
+                fill="none" mask="url(#_mask_JDmyfWEPgwuSLN0oNVMASnxM2j00Ki38)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_4giTpNabesh26kyYl4nOZZn8kNS2x0tN">
+            <circle vector-effect="non-scaling-stroke" cx="19.563253348214282" cy="14.436914062499984"
+                    r="0.381110491071432" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="19.563253348214282" cy="14.436914062499984" r="0.381110491071432"
+                fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="19.563253348214282" cy="14.436914062499984" r="0.381110491071432"
+                fill="none" mask="url(#_mask_4giTpNabesh26kyYl4nOZZn8kNS2x0tN)" stroke-width="0.4"
+                stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <mask id="_mask_02PMMNuX0VNgXECvIqAO2nAk2t3RIwLT">
+            <circle vector-effect="non-scaling-stroke" cx="20.49295479910715" cy="13.245493861607125"
+                    r="0.33031529017857153" fill="white" stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="20.49295479910715" cy="13.245493861607125"
+                r="0.33031529017857153" fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="20.49295479910715" cy="13.245493861607125"
+                r="0.33031529017857153" fill="none" mask="url(#_mask_02PMMNuX0VNgXECvIqAO2nAk2t3RIwLT)"
+                stroke-width="0.4" stroke="rgb(57,57,57)" stroke-linejoin="miter" stroke-linecap="square"
+                stroke-miterlimit="3"/>
+    </g>
+</svg>
