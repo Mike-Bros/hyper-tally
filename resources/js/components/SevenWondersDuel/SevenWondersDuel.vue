@@ -1,10 +1,10 @@
 <template>
-    <div class="my-4 lg:mx-60 md:mx-40 sm:mx-auto grid grid-rows-11 grid-cols-7  justify-content-center text-center">
+    <div class="my-4 lg:mx-60 md:mx-40 sm:mx-auto grid grid-rows-10 grid-cols-7  justify-content-center text-center">
 
         <!--  Row  -->
-        <div class="col-span-7 bg-green-600 dark:text-white">
-            <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 text-white">7 Wonders Duel Score Sheet</h1>
-        </div>
+        <!--        <div class="col-span-7 bg-green-600 dark:text-white">-->
+        <!--            <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 text-white">7 Wonders Duel Score Sheet</h1>-->
+        <!--        </div>-->
 
         <!--  Row  -->
         <div class="col-span-1 bg-gray-300"></div>
