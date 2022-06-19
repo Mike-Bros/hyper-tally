@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.spin-button-none::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.spin-button-none {
+    -moz-appearance: textfield;
+}
+
