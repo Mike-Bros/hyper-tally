@@ -1,6 +1,6 @@
 ## ![hypertally-logo](/public/img/hyper-tally.svg) About Hyper Tally
 
-Hyper Tally is webapp I created to replace my physical score sheets for games. This is also good practice using software
+Hyper Tally is webapp I created to replace my physical scoresheets for games. This is also good practice using software
 technologies like Laravel, Vue, and Tailwind. It was also decent graphic design practice creating SVG icons using Gravit
 Pro.
 
