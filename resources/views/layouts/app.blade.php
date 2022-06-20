@@ -24,6 +24,8 @@
               crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
 
+        <link rel="icon" href="{{ asset('img/hyper-tally.svg') }}">
+
         @yield('scripts-top')
         @yield('styles')
 
